@@ -12,6 +12,7 @@ class DisneyMovieTracker {
         this.setupEventListeners();
         this.renderMovies();
         this.updateStats();
+        this.updateRecommendations();
     }
 
     // Load movies from JSON file
@@ -36,6 +37,7 @@ class DisneyMovieTracker {
     saveProgress() {
         localStorage.setItem('disneyMovieProgress', JSON.stringify(this.userProgress));
         this.updateStats();
+        this.updateRecommendations();
     }
 
     // Setup event listeners
@@ -308,6 +310,204 @@ class DisneyMovieTracker {
                 <h3>Error loading movies</h3>
                 <p>Please refresh the page to try again</p>
             </div>
+        `;
+    }
+
+    // Update recommendations based on user's ratings
+    updateRecommendations() {
+        this.updateMovieRecommendations();
+        this.updateSpotifyRecommendation();
+    }
+
+    // Generate movie recommendations
+    updateMovieRecommendations() {
+        const container = document.getElementById('movieRecommendations');
+
+        // Get rated movies
+        const ratedMovies = Object.entries(this.userProgress)
+            .filter(([id, progress]) => progress.rating > 0)
+            .map(([id, progress]) => ({
+                id: parseInt(id),
+                ...progress,
+                movie: this.movies.find(m => m.id === parseInt(id))
+            }));
+
+        if (ratedMovies.length === 0) {
+            container.innerHTML = '<p class="placeholder-text">Start rating movies to get personalized recommendations!</p>';
+            return;
+        }
+
+        // Analyze user preferences
+        const preferences = this.analyzePreferences(ratedMovies);
+
+        // Get unwatched movies
+        const unwatchedMovies = this.movies.filter(movie =>
+            !this.userProgress[movie.id]?.watched
+        );
+
+        // Score and rank unwatched movies
+        const recommendations = unwatchedMovies
+            .map(movie => ({
+                movie,
+                score: this.calculateRecommendationScore(movie, preferences)
+            }))
+            .sort((a, b) => b.score - a.score)
+            .slice(0, 5); // Top 5 recommendations
+
+        // Render recommendations
+        if (recommendations.length === 0) {
+            container.innerHTML = '<p class="placeholder-text">You\'ve watched all movies! Amazing! 🎉</p>';
+            return;
+        }
+
+        container.innerHTML = recommendations.map(rec => `
+            <div class="recommended-movie-item" onclick="window.movieTracker.scrollToMovie(${rec.movie.id})">
+                <div class="recommended-movie-info">
+                    <div class="recommended-movie-title">${rec.movie.title}</div>
+                    <div class="recommended-movie-meta">
+                        ${rec.movie.year} • ${rec.movie.type} • ${rec.movie.song}
+                    </div>
+                </div>
+                <div class="recommendation-score">${rec.score}%</div>
+            </div>
+        `).join('');
+    }
+
+    // Analyze user preferences
+    analyzePreferences(ratedMovies) {
+        const totalRatings = ratedMovies.length;
+
+        // Calculate average rating by type
+        const animationRatings = ratedMovies.filter(r => r.movie.type === 'animation');
+        const liveActionRatings = ratedMovies.filter(r => r.movie.type === 'live-action');
+
+        const avgAnimationRating = animationRatings.length > 0
+            ? animationRatings.reduce((sum, r) => sum + r.rating, 0) / animationRatings.length
+            : 0;
+
+        const avgLiveActionRating = liveActionRatings.length > 0
+            ? liveActionRatings.reduce((sum, r) => sum + r.rating, 0) / liveActionRatings.length
+            : 0;
+
+        // Calculate average rating by era
+        const eras = {
+            classic: ratedMovies.filter(r => r.movie.year < 1990),
+            renaissance: ratedMovies.filter(r => r.movie.year >= 1990 && r.movie.year < 2010),
+            modern: ratedMovies.filter(r => r.movie.year >= 2010)
+        };
+
+        const avgEraRatings = {};
+        for (const [era, movies] of Object.entries(eras)) {
+            avgEraRatings[era] = movies.length > 0
+                ? movies.reduce((sum, r) => sum + r.rating, 0) / movies.length
+                : 0;
+        }
+
+        // Find highest rated movies
+        const highlyRated = ratedMovies.filter(r => r.rating >= 4);
+
+        return {
+            avgAnimationRating,
+            avgLiveActionRating,
+            avgEraRatings,
+            highlyRated,
+            preferredType: avgAnimationRating > avgLiveActionRating ? 'animation' : 'live-action',
+            preferredEra: Object.entries(avgEraRatings).sort((a, b) => b[1] - a[1])[0]?.[0]
+        };
+    }
+
+    // Calculate recommendation score for a movie
+    calculateRecommendationScore(movie, preferences) {
+        let score = 50; // Base score
+
+        // Type preference (0-30 points)
+        if (movie.type === preferences.preferredType) {
+            const typeAvg = movie.type === 'animation'
+                ? preferences.avgAnimationRating
+                : preferences.avgLiveActionRating;
+            score += (typeAvg / 5) * 30;
+        }
+
+        // Era preference (0-20 points)
+        let era = 'classic';
+        if (movie.year >= 2010) era = 'modern';
+        else if (movie.year >= 1990) era = 'renaissance';
+
+        if (preferences.avgEraRatings[era] > 0) {
+            score += (preferences.avgEraRatings[era] / 5) * 20;
+        }
+
+        return Math.round(score);
+    }
+
+    // Scroll to a specific movie in the grid
+    scrollToMovie(movieId) {
+        // Clear filters to show all movies
+        document.getElementById('search').value = '';
+        document.getElementById('typeFilter').value = 'all';
+        document.getElementById('statusFilter').value = 'all';
+        this.applyFilters();
+
+        // Wait for render, then scroll
+        setTimeout(() => {
+            const movieCard = document.querySelector(`[data-movie-id="${movieId}"]`);
+            if (movieCard) {
+                movieCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                movieCard.style.animation = 'pulse 1s';
+                setTimeout(() => {
+                    movieCard.style.animation = '';
+                }, 1000);
+            }
+        }, 100);
+    }
+
+    // Update Spotify recommendation
+    updateSpotifyRecommendation() {
+        const container = document.getElementById('spotifyRecommendation');
+
+        // Get rated movies
+        const ratedMovies = Object.entries(this.userProgress)
+            .filter(([id, progress]) => progress.rating > 0)
+            .map(([id, progress]) => ({
+                id: parseInt(id),
+                ...progress,
+                movie: this.movies.find(m => m.id === parseInt(id))
+            }))
+            .sort((a, b) => b.rating - a.rating); // Sort by rating
+
+        if (ratedMovies.length === 0) {
+            container.innerHTML = '<p class="placeholder-text">Rate some movies to create your personalized playlist!</p>';
+            return;
+        }
+
+        // Get songs from rated movies
+        const songs = ratedMovies.map(r => r.movie.song);
+
+        // Create Spotify search query
+        const playlistName = `My Disney Soundtrack (${ratedMovies.length} songs)`;
+        const searchQuery = songs.slice(0, 10).join(' OR '); // Limit to top 10 for URL length
+        const spotifySearchUrl = `https://open.spotify.com/search/${encodeURIComponent(searchQuery)}`;
+
+        // Show song list and Spotify button
+        const songListHtml = ratedMovies.slice(0, 10).map(r => `
+            <div class="song-item">
+                <strong>${r.movie.song}</strong>
+                <span>from ${r.movie.title} (${r.movie.year}) - ⭐ ${r.rating}/5</span>
+            </div>
+        `).join('');
+
+        container.innerHTML = `
+            <div class="song-list">
+                ${songListHtml}
+                ${ratedMovies.length > 10 ? `<p class="text-secondary" style="font-size: 0.85rem; margin-top: 0.5rem;">...and ${ratedMovies.length - 10} more songs</p>` : ''}
+            </div>
+            <a href="${spotifySearchUrl}" target="_blank" rel="noopener noreferrer" class="spotify-button">
+                <span class="spotify-icon">🎵</span>
+                Open in Spotify
+            </a>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.75rem;">
+                Search for these ${ratedMovies.length} Disney songs on Spotify and create your playlist!
+            </p>
         `;
     }
 

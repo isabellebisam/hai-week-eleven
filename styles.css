@@ -131,6 +131,139 @@ main {
     font-weight: 500;
 }
 
+/* Recommendations Section */
+.recommendations {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.recommendation-card {
+    background: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    border-left: 4px solid var(--accent-color);
+}
+
+.recommendation-card.spotify-card {
+    border-left-color: #1DB954;
+}
+
+.recommendation-card h2 {
+    font-size: 1.5rem;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.recommendation-subtitle {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.recommendation-content {
+    margin-top: 1rem;
+}
+
+.placeholder-text {
+    color: var(--text-secondary);
+    font-style: italic;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.recommended-movie-item {
+    background: var(--background);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.recommended-movie-item:hover {
+    transform: translateX(4px);
+    box-shadow: var(--shadow);
+}
+
+.recommended-movie-info {
+    flex: 1;
+}
+
+.recommended-movie-title {
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.25rem;
+}
+
+.recommended-movie-meta {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.recommendation-score {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: white;
+    padding: 0.5rem 0.75rem;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    min-width: 60px;
+    text-align: center;
+}
+
+.spotify-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #1DB954;
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 24px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s, transform 0.2s;
+    margin-top: 0.5rem;
+}
+
+.spotify-button:hover {
+    background: #1ed760;
+    transform: scale(1.05);
+}
+
+.spotify-icon {
+    font-size: 1.2rem;
+}
+
+.song-list {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+}
+
+.song-item {
+    padding: 0.5rem;
+    background: var(--background);
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.song-item strong {
+    color: var(--text-primary);
+    display: block;
+}
+
+.song-item span {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}
+
 /* Movie Grid */
 .movie-grid {
     display: grid;
@@ -333,6 +466,17 @@ main {
     }
 }
 
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+        box-shadow: var(--shadow);
+    }
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+    }
+}
+
 .close {
     color: var(--text-secondary);
     position: absolute;
@@ -390,6 +534,10 @@ footer p {
 
     .stats {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .recommendations {
+        grid-template-columns: 1fr;
     }
 
     .movie-grid {
