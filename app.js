@@ -62,6 +62,11 @@ class DisneyMovieTracker {
             this.handleSort(e.target.value);
         });
 
+        // Reset button
+        document.getElementById('resetButton').addEventListener('click', () => {
+            this.resetProgress();
+        });
+
         // Modal close
         const modal = document.getElementById('movieModal');
         const closeBtn = document.querySelector('.close');
@@ -300,6 +305,27 @@ class DisneyMovieTracker {
         document.getElementById('watchedCount').textContent = watchedMovies;
         document.getElementById('unwatchedCount').textContent = unwatchedMovies;
         document.getElementById('avgRating').textContent = avgRating;
+    }
+
+    // Reset all progress
+    resetProgress() {
+        const confirmed = confirm('Are you sure you want to reset all your ratings and progress? This cannot be undone.');
+
+        if (confirmed) {
+            // Clear user progress
+            this.userProgress = {};
+
+            // Clear localStorage
+            localStorage.removeItem('disneyMovieProgress');
+
+            // Update UI
+            this.renderMovies();
+            this.updateStats();
+            this.updateRecommendations();
+
+            // Show success message
+            alert('All progress has been reset successfully!');
+        }
     }
 
     // Show error message
