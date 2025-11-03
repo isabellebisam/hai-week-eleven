@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Track your Disney movie collection - rate and log classic and modern Disney films">
+    <title>Disney Movie Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>✨ Disney Movie Tracker</h1>
+            <p class="subtitle">Track your magical Disney movie journey</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="controls">
+            <div class="filter-group">
+                <label for="search">Search Movies:</label>
+                <input type="text" id="search" placeholder="Search by title, year, or song...">
+            </div>
+
+            <div class="filter-group">
+                <label for="typeFilter">Filter by Type:</label>
+                <select id="typeFilter">
+                    <option value="all">All Movies</option>
+                    <option value="animation">Animation Only</option>
+                    <option value="live-action">Live-Action Only</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="statusFilter">Filter by Status:</label>
+                <select id="statusFilter">
+                    <option value="all">All Movies</option>
+                    <option value="watched">Watched</option>
+                    <option value="unwatched">Not Watched Yet</option>
+                    <option value="rated">Rated</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="sortBy">Sort By:</label>
+                <select id="sortBy">
+                    <option value="title">Title (A-Z)</option>
+                    <option value="year-asc">Year (Oldest First)</option>
+                    <option value="year-desc">Year (Newest First)</option>
+                    <option value="rating">My Rating (Highest)</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="stat-card">
+                <h3 id="totalMovies">0</h3>
+                <p>Total Movies</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="watchedCount">0</h3>
+                <p>Watched</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="unwatchedCount">0</h3>
+                <p>Not Watched</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="avgRating">-</h3>
+                <p>Avg Rating</p>
+            </div>
+        </section>
+
+        <section class="movie-grid" id="movieGrid">
+            <!-- Movies will be dynamically loaded here -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Disney Movie Tracker | A magical way to track your Disney journey</p>
+        </div>
+    </footer>
+
+    <!-- Movie Detail Modal -->
+    <div id="movieModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalBody">
+                <!-- Movie details will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

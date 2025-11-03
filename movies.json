@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "title": "Snow White and the Seven Dwarfs",
+    "year": 1937,
+    "type": "animation",
+    "song": "Someday My Prince Will Come"
+  },
+  {
+    "id": 2,
+    "title": "Pinocchio",
+    "year": 1940,
+    "type": "animation",
+    "song": "When You Wish Upon a Star"
+  },
+  {
+    "id": 3,
+    "title": "Fantasia",
+    "year": 1940,
+    "type": "animation",
+    "song": "The Sorcerer's Apprentice"
+  },
+  {
+    "id": 4,
+    "title": "Dumbo",
+    "year": 1941,
+    "type": "animation",
+    "song": "Baby Mine"
+  },
+  {
+    "id": 5,
+    "title": "Bambi",
+    "year": 1942,
+    "type": "animation",
+    "song": "Love Is a Song"
+  },
+  {
+    "id": 6,
+    "title": "Cinderella",
+    "year": 1950,
+    "type": "animation",
+    "song": "A Dream Is a Wish Your Heart Makes"
+  },
+  {
+    "id": 7,
+    "title": "Alice in Wonderland",
+    "year": 1951,
+    "type": "animation",
+    "song": "The Unbirthday Song"
+  },
+  {
+    "id": 8,
+    "title": "Peter Pan",
+    "year": 1953,
+    "type": "animation",
+    "song": "You Can Fly!"
+  },
+  {
+    "id": 9,
+    "title": "Lady and the Tramp",
+    "year": 1955,
+    "type": "animation",
+    "song": "Bella Notte"
+  },
+  {
+    "id": 10,
+    "title": "Sleeping Beauty",
+    "year": 1959,
+    "type": "animation",
+    "song": "Once Upon a Dream"
+  },
+  {
+    "id": 11,
+    "title": "101 Dalmatians",
+    "year": 1961,
+    "type": "animation",
+    "song": "Cruella De Vil"
+  },
+  {
+    "id": 12,
+    "title": "The Sword in the Stone",
+    "year": 1963,
+    "type": "animation",
+    "song": "Higitus Figitus"
+  },
+  {
+    "id": 13,
+    "title": "The Jungle Book",
+    "year": 1967,
+    "type": "animation",
+    "song": "The Bare Necessities"
+  },
+  {
+    "id": 14,
+    "title": "The Aristocats",
+    "year": 1970,
+    "type": "animation",
+    "song": "Everybody Wants to Be a Cat"
+  },
+  {
+    "id": 15,
+    "title": "Robin Hood",
+    "year": 1973,
+    "type": "animation",
+    "song": "Oo-De-Lally"
+  },
+  {
+    "id": 16,
+    "title": "The Many Adventures of Winnie the Pooh",
+    "year": 1977,
+    "type": "animation",
+    "song": "Winnie the Pooh"
+  },
+  {
+    "id": 17,
+    "title": "The Rescuers",
+    "year": 1977,
+    "type": "animation",
+    "song": "Tomorrow Is Another Day"
+  },
+  {
+    "id": 18,
+    "title": "The Fox and the Hound",
+    "year": 1981,
+    "type": "animation",
+    "song": "Best of Friends"
+  },
+  {
+    "id": 19,
+    "title": "The Black Cauldron",
+    "year": 1985,
+    "type": "animation",
+    "song": "No instrumental score"
+  },
+  {
+    "id": 20,
+    "title": "The Great Mouse Detective",
+    "year": 1986,
+    "type": "animation",
+    "song": "The World's Greatest Criminal Mind"
+  },
+  {
+    "id": 21,
+    "title": "Oliver & Company",
+    "year": 1988,
+    "type": "animation",
+    "song": "Why Should I Worry"
+  },
+  {
+    "id": 22,
+    "title": "The Little Mermaid",
+    "year": 1989,
+    "type": "animation",
+    "song": "Under the Sea"
+  },
+  {
+    "id": 23,
+    "title": "The Rescuers Down Under",
+    "year": 1990,
+    "type": "animation",
+    "song": "Home instrumental theme"
+  },
+  {
+    "id": 24,
+    "title": "Beauty and the Beast",
+    "year": 1991,
+    "type": "animation",
+    "song": "Beauty and the Beast"
+  },
+  {
+    "id": 25,
+    "title": "Aladdin",
+    "year": 1992,
+    "type": "animation",
+    "song": "A Whole New World"
+  },
+  {
+    "id": 26,
+    "title": "The Lion King",
+    "year": 1994,
+    "type": "animation",
+    "song": "Circle of Life"
+  },
+  {
+    "id": 27,
+    "title": "Pocahontas",
+    "year": 1995,
+    "type": "animation",
+    "song": "Colors of the Wind"
+  },
+  {
+    "id": 28,
+    "title": "The Hunchback of Notre Dame",
+    "year": 1996,
+    "type": "animation",
+    "song": "The Bells of Notre Dame"
+  },
+  {
+    "id": 29,
+    "title": "Hercules",
+    "year": 1997,
+    "type": "animation",
+    "song": "Go the Distance"
+  },
+  {
+    "id": 30,
+    "title": "Mulan",
+    "year": 1998,
+    "type": "animation",
+    "song": "Reflection"
+  },
+  {
+    "id": 31,
+    "title": "Tarzan",
+    "year": 1999,
+    "type": "animation",
+    "song": "You'll Be in My Heart"
+  },
+  {
+    "id": 32,
+    "title": "Fantasia 2000",
+    "year": 1999,
+    "type": "animation",
+    "song": "Pomp and Circumstance"
+  },
+  {
+    "id": 33,
+    "title": "Dinosaur",
+    "year": 2000,
+    "type": "animation",
+    "song": "Main Theme instrumental"
+  },
+  {
+    "id": 34,
+    "title": "The Emperor's New Groove",
+    "year": 2000,
+    "type": "animation",
+    "song": "Perfect World"
+  },
+  {
+    "id": 35,
+    "title": "Atlantis: The Lost Empire",
+    "year": 2001,
+    "type": "animation",
+    "song": "Where the Dream Takes You"
+  },
+  {
+    "id": 36,
+    "title": "Lilo & Stitch",
+    "year": 2002,
+    "type": "animation",
+    "song": "Hawaiian Roller Coaster Ride"
+  },
+  {
+    "id": 37,
+    "title": "Treasure Planet",
+    "year": 2002,
+    "type": "animation",
+    "song": "I'm Still Here"
+  },
+  {
+    "id": 38,
+    "title": "Brother Bear",
+    "year": 2003,
+    "type": "animation",
+    "song": "Look Through My Eyes"
+  },
+  {
+    "id": 39,
+    "title": "Home on the Range",
+    "year": 2004,
+    "type": "animation",
+    "song": "Home on the Range"
+  },
+  {
+    "id": 40,
+    "title": "Chicken Little",
+    "year": 2005,
+    "type": "animation",
+    "song": "Stir It Up"
+  },
+  {
+    "id": 41,
+    "title": "Meet the Robinsons",
+    "year": 2007,
+    "type": "animation",
+    "song": "Little Wonders"
+  },
+  {
+    "id": 42,
+    "title": "Bolt",
+    "year": 2008,
+    "type": "animation",
+    "song": "Barking at the Moon"
+  },
+  {
+    "id": 43,
+    "title": "The Princess and the Frog",
+    "year": 2009,
+    "type": "animation",
+    "song": "Almost There"
+  },
+  {
+    "id": 44,
+    "title": "Tangled",
+    "year": 2010,
+    "type": "animation",
+    "song": "I See the Light"
+  },
+  {
+    "id": 45,
+    "title": "Winnie the Pooh",
+    "year": 2011,
+    "type": "animation",
+    "song": "A Very Important Thing to Do"
+  },
+  {
+    "id": 46,
+    "title": "Wreck-It Ralph",
+    "year": 2012,
+    "type": "animation",
+    "song": "When Can I See You Again"
+  },
+  {
+    "id": 47,
+    "title": "Frozen",
+    "year": 2013,
+    "type": "animation",
+    "song": "Let It Go"
+  },
+  {
+    "id": 48,
+    "title": "Big Hero 6",
+    "year": 2014,
+    "type": "animation",
+    "song": "Immortals"
+  },
+  {
+    "id": 49,
+    "title": "Zootopia",
+    "year": 2016,
+    "type": "animation",
+    "song": "Try Everything"
+  },
+  {
+    "id": 50,
+    "title": "Moana",
+    "year": 2016,
+    "type": "animation",
+    "song": "How Far I'll Go"
+  },
+  {
+    "id": 51,
+    "title": "Ralph Breaks the Internet",
+    "year": 2018,
+    "type": "animation",
+    "song": "Zero"
+  },
+  {
+    "id": 52,
+    "title": "Frozen II",
+    "year": 2019,
+    "type": "animation",
+    "song": "Into the Unknown"
+  },
+  {
+    "id": 53,
+    "title": "Raya and the Last Dragon",
+    "year": 2021,
+    "type": "animation",
+    "song": "Lead the Way"
+  },
+  {
+    "id": 54,
+    "title": "Encanto",
+    "year": 2021,
+    "type": "animation",
+    "song": "We Don't Talk About Bruno"
+  },
+  {
+    "id": 55,
+    "title": "Strange World",
+    "year": 2022,
+    "type": "animation",
+    "song": "Main Theme instrumental"
+  },
+  {
+    "id": 56,
+    "title": "Wish",
+    "year": 2023,
+    "type": "animation",
+    "song": "This Wish"
+  },
+  {
+    "id": 57,
+    "title": "Mary Poppins",
+    "year": 1964,
+    "type": "live-action",
+    "song": "Supercalifragilisticexpialidocious"
+  },
+  {
+    "id": 58,
+    "title": "The Love Bug",
+    "year": 1968,
+    "type": "live-action",
+    "song": "The Love Bug theme"
+  },
+  {
+    "id": 59,
+    "title": "Bedknobs and Broomsticks",
+    "year": 1971,
+    "type": "live-action",
+    "song": "The Age of Not Believing"
+  },
+  {
+    "id": 60,
+    "title": "Pete's Dragon",
+    "year": 1977,
+    "type": "live-action",
+    "song": "Candle on the Water"
+  },
+  {
+    "id": 61,
+    "title": "The Black Hole",
+    "year": 1979,
+    "type": "live-action",
+    "song": "Main Theme instrumental"
+  },
+  {
+    "id": 62,
+    "title": "Tron",
+    "year": 1982,
+    "type": "live-action",
+    "song": "Tron Theme instrumental"
+  },
+  {
+    "id": 63,
+    "title": "The Rocketeer",
+    "year": 1991,
+    "type": "live-action",
+    "song": "Main Theme instrumental"
+  },
+  {
+    "id": 64,
+    "title": "Newsies",
+    "year": 1992,
+    "type": "live-action",
+    "song": "Seize the Day"
+  },
+  {
+    "id": 65,
+    "title": "The Mighty Ducks",
+    "year": 1992,
+    "type": "live-action",
+    "song": "We Are the Champions"
+  },
+  {
+    "id": 66,
+    "title": "Hocus Pocus",
+    "year": 1993,
+    "type": "live-action",
+    "song": "I Put a Spell on You"
+  },
+  {
+    "id": 67,
+    "title": "Cool Runnings",
+    "year": 1993,
+    "type": "live-action",
+    "song": "I Can See Clearly Now"
+  },
+  {
+    "id": 68,
+    "title": "The Santa Clause",
+    "year": 1994,
+    "type": "live-action",
+    "song": "The Santa Clause Theme"
+  },
+  {
+    "id": 69,
+    "title": "The Parent Trap",
+    "year": 1998,
+    "type": "live-action",
+    "song": "Here Comes the Sun"
+  },
+  {
+    "id": 70,
+    "title": "Holes",
+    "year": 2003,
+    "type": "live-action",
+    "song": "Dig It"
+  },
+  {
+    "id": 71,
+    "title": "Freaky Friday",
+    "year": 2003,
+    "type": "live-action",
+    "song": "Ultimate"
+  },
+  {
+    "id": 72,
+    "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "year": 2003,
+    "type": "live-action",
+    "song": "He's a Pirate"
+  },
+  {
+    "id": 73,
+    "title": "National Treasure",
+    "year": 2004,
+    "type": "live-action",
+    "song": "National Treasure Theme"
+  },
+  {
+    "id": 74,
+    "title": "Enchanted",
+    "year": 2007,
+    "type": "live-action",
+    "song": "Happy Working Song"
+  },
+  {
+    "id": 75,
+    "title": "High School Musical",
+    "year": 2006,
+    "type": "live-action",
+    "song": "We're All in This Together"
+  },
+  {
+    "id": 76,
+    "title": "Pirates of the Caribbean: Dead Man's Chest",
+    "year": 2006,
+    "type": "live-action",
+    "song": "Davy Jones theme"
+  },
+  {
+    "id": 77,
+    "title": "Tron: Legacy",
+    "year": 2010,
+    "type": "live-action",
+    "song": "Derezzed"
+  },
+  {
+    "id": 78,
+    "title": "Alice in Wonderland",
+    "year": 2010,
+    "type": "live-action",
+    "song": "Alice's Theme"
+  },
+  {
+    "id": 79,
+    "title": "The Sorcerer's Apprentice",
+    "year": 2010,
+    "type": "live-action",
+    "song": "Secrets"
+  },
+  {
+    "id": 80,
+    "title": "Oz the Great and Powerful",
+    "year": 2013,
+    "type": "live-action",
+    "song": "Main Theme instrumental"
+  },
+  {
+    "id": 81,
+    "title": "Maleficent",
+    "year": 2014,
+    "type": "live-action",
+    "song": "Once Upon a Dream"
+  },
+  {
+    "id": 82,
+    "title": "Into the Woods",
+    "year": 2014,
+    "type": "live-action",
+    "song": "Into the Woods"
+  },
+  {
+    "id": 83,
+    "title": "Cinderella",
+    "year": 2015,
+    "type": "live-action",
+    "song": "A Dream Is a Wish Your Heart Makes"
+  },
+  {
+    "id": 84,
+    "title": "The Jungle Book",
+    "year": 2016,
+    "type": "live-action",
+    "song": "The Bare Necessities"
+  },
+  {
+    "id": 85,
+    "title": "Pete's Dragon",
+    "year": 2016,
+    "type": "live-action",
+    "song": "Something Wild"
+  },
+  {
+    "id": 86,
+    "title": "Beauty and the Beast",
+    "year": 2017,
+    "type": "live-action",
+    "song": "Beauty and the Beast"
+  },
+  {
+    "id": 87,
+    "title": "Christopher Robin",
+    "year": 2018,
+    "type": "live-action",
+    "song": "Goodbye, Farewell"
+  },
+  {
+    "id": 88,
+    "title": "The Nutcracker and the Four Realms",
+    "year": 2018,
+    "type": "live-action",
+    "song": "Fall on Me"
+  },
+  {
+    "id": 89,
+    "title": "Mary Poppins Returns",
+    "year": 2018,
+    "type": "live-action",
+    "song": "The Place Where Lost Things Go"
+  },
+  {
+    "id": 90,
+    "title": "Dumbo",
+    "year": 2019,
+    "type": "live-action",
+    "song": "Baby Mine"
+  },
+  {
+    "id": 91,
+    "title": "Aladdin",
+    "year": 2019,
+    "type": "live-action",
+    "song": "A Whole New World"
+  },
+  {
+    "id": 92,
+    "title": "The Lion King",
+    "year": 2019,
+    "type": "live-action",
+    "song": "Circle of Life"
+  },
+  {
+    "id": 93,
+    "title": "Maleficent: Mistress of Evil",
+    "year": 2019,
+    "type": "live-action",
+    "song": "You Can't Stop the Girl"
+  },
+  {
+    "id": 94,
+    "title": "Mulan",
+    "year": 2020,
+    "type": "live-action",
+    "song": "Loyal Brave True"
+  },
+  {
+    "id": 95,
+    "title": "Cruella",
+    "year": 2021,
+    "type": "live-action",
+    "song": "Call Me Cruella"
+  },
+  {
+    "id": 96,
+    "title": "Jungle Cruise",
+    "year": 2021,
+    "type": "live-action",
+    "song": "Jungle Cruise Theme"
+  },
+  {
+    "id": 97,
+    "title": "Disenchanted",
+    "year": 2022,
+    "type": "live-action",
+    "song": "Perfect"
+  },
+  {
+    "id": 98,
+    "title": "Hocus Pocus 2",
+    "year": 2022,
+    "type": "live-action",
+    "song": "The Witches Are Back"
+  },
+  {
+    "id": 99,
+    "title": "The Little Mermaid",
+    "year": 2023,
+    "type": "live-action",
+    "song": "Part of Your World"
+  },
+  {
+    "id": 100,
+    "title": "Haunted Mansion",
+    "year": 2023,
+    "type": "live-action",
+    "song": "Haunted Mansion Theme"
+  }
+]
