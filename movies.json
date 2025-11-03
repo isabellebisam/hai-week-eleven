@@ -4,699 +4,799 @@
     "title": "Snow White and the Seven Dwarfs",
     "year": 1937,
     "type": "animation",
-    "song": "Someday My Prince Will Come"
+    "song": "Someday My Prince Will Come",
+    "description": "Disney's first animated feature follows a beautiful princess who befriends seven dwarfs while hiding from her evil stepmother."
   },
   {
     "id": 2,
     "title": "Pinocchio",
     "year": 1940,
     "type": "animation",
-    "song": "When You Wish Upon a Star"
+    "song": "When You Wish Upon a Star",
+    "description": "A wooden puppet dreams of becoming a real boy and learns valuable lessons about honesty and bravery."
   },
   {
     "id": 3,
     "title": "Fantasia",
     "year": 1940,
     "type": "animation",
-    "song": "The Sorcerer's Apprentice"
+    "song": "The Sorcerer's Apprentice",
+    "description": "A groundbreaking collection of animated segments set to classical music, featuring Mickey Mouse as the Sorcerer's Apprentice."
   },
   {
     "id": 4,
     "title": "Dumbo",
     "year": 1941,
     "type": "animation",
-    "song": "Baby Mine"
+    "song": "Baby Mine",
+    "description": "A young elephant with oversized ears discovers his unique gift of flight and becomes a circus star."
   },
   {
     "id": 5,
     "title": "Bambi",
     "year": 1942,
     "type": "animation",
-    "song": "Love Is a Song"
+    "song": "Love Is a Song",
+    "description": "A young deer grows up in the forest, learning about life, love, and loss from his woodland friends."
   },
   {
     "id": 6,
     "title": "Cinderella",
     "year": 1950,
     "type": "animation",
-    "song": "A Dream Is a Wish Your Heart Makes"
+    "song": "A Dream Is a Wish Your Heart Makes",
+    "description": "With help from her Fairy Godmother, a mistreated girl attends the royal ball and captures the prince's heart."
   },
   {
     "id": 7,
     "title": "Alice in Wonderland",
     "year": 1951,
     "type": "animation",
-    "song": "The Unbirthday Song"
+    "song": "The Unbirthday Song",
+    "description": "A curious girl falls down a rabbit hole into a whimsical world of peculiar characters and nonsensical adventures."
   },
   {
     "id": 8,
     "title": "Peter Pan",
     "year": 1953,
     "type": "animation",
-    "song": "You Can Fly!"
+    "song": "You Can Fly!",
+    "description": "The boy who never grows up takes the Darling children to Neverland for magical adventures with pirates and fairies."
   },
   {
     "id": 9,
     "title": "Lady and the Tramp",
     "year": 1955,
     "type": "animation",
-    "song": "Bella Notte"
+    "song": "Bella Notte",
+    "description": "A pampered cocker spaniel and a streetwise mutt embark on an unexpected romantic adventure."
   },
   {
     "id": 10,
     "title": "Sleeping Beauty",
     "year": 1959,
     "type": "animation",
-    "song": "Once Upon a Dream"
+    "song": "Once Upon a Dream",
+    "description": "A princess cursed by an evil fairy falls into a deep sleep, awaiting true love's kiss."
   },
   {
     "id": 11,
     "title": "101 Dalmatians",
     "year": 1961,
     "type": "animation",
-    "song": "Cruella De Vil"
+    "song": "Cruella De Vil",
+    "description": "Two dalmatians race to rescue their puppies from the villainous Cruella De Vil who wants to make them into a fur coat."
   },
   {
     "id": 12,
     "title": "The Sword in the Stone",
     "year": 1963,
     "type": "animation",
-    "song": "Higitus Figitus"
+    "song": "Higitus Figitus",
+    "description": "Young Arthur is mentored by the wizard Merlin and learns he is destined to become King of England."
   },
   {
     "id": 13,
     "title": "The Jungle Book",
     "year": 1967,
     "type": "animation",
-    "song": "The Bare Necessities"
+    "song": "The Bare Necessities",
+    "description": "A young boy raised by wolves in the jungle befriends a carefree bear and learns to embrace life's simple pleasures."
   },
   {
     "id": 14,
     "title": "The Aristocats",
     "year": 1970,
     "type": "animation",
-    "song": "Everybody Wants to Be a Cat"
+    "song": "Everybody Wants to Be a Cat",
+    "description": "A family of aristocratic cats teams up with an alley cat to return home after being kidnapped."
   },
   {
     "id": 15,
     "title": "Robin Hood",
     "year": 1973,
     "type": "animation",
-    "song": "Oo-De-Lally"
+    "song": "Oo-De-Lally",
+    "description": "The legendary outlaw, portrayed as a fox, steals from the rich to give to the poor in medieval England."
   },
   {
     "id": 16,
     "title": "The Many Adventures of Winnie the Pooh",
     "year": 1977,
     "type": "animation",
-    "song": "Winnie the Pooh"
+    "song": "Winnie the Pooh",
+    "description": "The lovable bear and his friends share heartwarming adventures in the Hundred Acre Wood."
   },
   {
     "id": 17,
     "title": "The Rescuers",
     "year": 1977,
     "type": "animation",
-    "song": "Tomorrow Is Another Day"
+    "song": "Tomorrow Is Another Day",
+    "description": "Two brave mice embark on a daring mission to rescue a kidnapped orphan girl from the treacherous swamps."
   },
   {
     "id": 18,
     "title": "The Fox and the Hound",
     "year": 1981,
     "type": "animation",
-    "song": "Best of Friends"
+    "song": "Best of Friends",
+    "description": "A fox and a hound become unlikely friends, but society's expectations threaten their bond."
   },
   {
     "id": 19,
     "title": "The Black Cauldron",
     "year": 1985,
     "type": "animation",
-    "song": "No instrumental score"
+    "song": "No instrumental score",
+    "description": "A young pig keeper and his companions seek to destroy a magical cauldron before an evil king can use it."
   },
   {
     "id": 20,
     "title": "The Great Mouse Detective",
     "year": 1986,
     "type": "animation",
-    "song": "The World's Greatest Criminal Mind"
+    "song": "The World's Greatest Criminal Mind",
+    "description": "A brilliant mouse detective investigates the kidnapping of a toymaker in Victorian London."
   },
   {
     "id": 21,
     "title": "Oliver & Company",
     "year": 1988,
     "type": "animation",
-    "song": "Why Should I Worry"
+    "song": "Why Should I Worry",
+    "description": "A homeless kitten joins a gang of street dogs in modern-day New York City in this Oliver Twist adaptation."
   },
   {
     "id": 22,
     "title": "The Little Mermaid",
     "year": 1989,
     "type": "animation",
-    "song": "Under the Sea"
+    "song": "Under the Sea",
+    "description": "A mermaid princess dreams of life on land and makes a dangerous deal with a sea witch to become human."
   },
   {
     "id": 23,
     "title": "The Rescuers Down Under",
     "year": 1990,
     "type": "animation",
-    "song": "Home instrumental theme"
+    "song": "Home instrumental theme",
+    "description": "The mouse rescue team travels to the Australian Outback to save a boy and a rare golden eagle."
   },
   {
     "id": 24,
     "title": "Beauty and the Beast",
     "year": 1991,
     "type": "animation",
-    "song": "Beauty and the Beast"
+    "song": "Beauty and the Beast",
+    "description": "A brilliant young woman becomes prisoner to a cursed prince and discovers the beauty within."
   },
   {
     "id": 25,
     "title": "Aladdin",
     "year": 1992,
     "type": "animation",
-    "song": "A Whole New World"
+    "song": "A Whole New World",
+    "description": "A street urchin discovers a magic lamp and uses the genie's wishes to win the heart of a princess."
   },
   {
     "id": 26,
     "title": "The Lion King",
     "year": 1994,
     "type": "animation",
-    "song": "Circle of Life"
+    "song": "Circle of Life",
+    "description": "A young lion prince flees his kingdom after his father's death and must return to reclaim his rightful throne."
   },
   {
     "id": 27,
     "title": "Pocahontas",
     "year": 1995,
     "type": "animation",
-    "song": "Colors of the Wind"
+    "song": "Colors of the Wind",
+    "description": "A Native American woman builds a bridge between two worlds while teaching respect for nature."
   },
   {
     "id": 28,
     "title": "The Hunchback of Notre Dame",
     "year": 1996,
     "type": "animation",
-    "song": "The Bells of Notre Dame"
+    "song": "The Bells of Notre Dame",
+    "description": "A deformed bell-ringer ventures from his tower sanctuary to help a gypsy girl and stand up to injustice."
   },
   {
     "id": 29,
     "title": "Hercules",
     "year": 1997,
     "type": "animation",
-    "song": "Go the Distance"
+    "song": "Go the Distance",
+    "description": "The son of Zeus must prove himself a true hero to reclaim his place among the gods on Mount Olympus."
   },
   {
     "id": 30,
     "title": "Mulan",
     "year": 1998,
     "type": "animation",
-    "song": "Reflection"
+    "song": "Reflection",
+    "description": "A young woman disguises herself as a man to take her father's place in the Chinese army."
   },
   {
     "id": 31,
     "title": "Tarzan",
     "year": 1999,
     "type": "animation",
-    "song": "You'll Be in My Heart"
+    "song": "You'll Be in My Heart",
+    "description": "A man raised by gorillas in the jungle must choose between his animal family and human explorers."
   },
   {
     "id": 32,
     "title": "Fantasia 2000",
     "year": 1999,
     "type": "animation",
-    "song": "Pomp and Circumstance"
+    "song": "Pomp and Circumstance",
+    "description": "A modern continuation of the original Fantasia with new animated sequences set to classical music."
   },
   {
     "id": 33,
     "title": "Dinosaur",
     "year": 2000,
     "type": "animation",
-    "song": "Main Theme instrumental"
+    "song": "Main Theme instrumental",
+    "description": "An orphaned dinosaur raised by lemurs joins a herd on a treacherous journey to a safe nesting ground."
   },
   {
     "id": 34,
     "title": "The Emperor's New Groove",
     "year": 2000,
     "type": "animation",
-    "song": "Perfect World"
+    "song": "Perfect World",
+    "description": "A selfish emperor is transformed into a llama and must regain his throne with help from a kind peasant."
   },
   {
     "id": 35,
     "title": "Atlantis: The Lost Empire",
     "year": 2001,
     "type": "animation",
-    "song": "Where the Dream Takes You"
+    "song": "Where the Dream Takes You",
+    "description": "A young linguist joins an expedition to find the lost underwater kingdom of Atlantis."
   },
   {
     "id": 36,
     "title": "Lilo & Stitch",
     "year": 2002,
     "type": "animation",
-    "song": "Hawaiian Roller Coaster Ride"
+    "song": "Hawaiian Roller Coaster Ride",
+    "description": "A lonely Hawaiian girl adopts an unusual pet who's actually a destructive alien experiment."
   },
   {
     "id": 37,
     "title": "Treasure Planet",
     "year": 2002,
     "type": "animation",
-    "song": "I'm Still Here"
+    "song": "I'm Still Here",
+    "description": "A rebellious teen embarks on a space voyage to find the legendary Treasure Planet."
   },
   {
     "id": 38,
     "title": "Brother Bear",
     "year": 2003,
     "type": "animation",
-    "song": "Look Through My Eyes"
+    "song": "Look Through My Eyes",
+    "description": "A young hunter transformed into a bear learns to see the world from a new perspective."
   },
   {
     "id": 39,
     "title": "Home on the Range",
     "year": 2004,
     "type": "animation",
-    "song": "Home on the Range"
+    "song": "Home on the Range",
+    "description": "Three dairy cows team up to capture an outlaw and save their farm from foreclosure."
   },
   {
     "id": 40,
     "title": "Chicken Little",
     "year": 2005,
     "type": "animation",
-    "song": "Stir It Up"
+    "song": "Stir It Up",
+    "description": "A young chicken who caused panic tries to redeem himself when aliens actually do invade."
   },
   {
     "id": 41,
     "title": "Meet the Robinsons",
     "year": 2007,
     "type": "animation",
-    "song": "Little Wonders"
+    "song": "Little Wonders",
+    "description": "A young inventor travels to the future and discovers the importance of family and moving forward."
   },
   {
     "id": 42,
     "title": "Bolt",
     "year": 2008,
     "type": "animation",
-    "song": "Barking at the Moon"
+    "song": "Barking at the Moon",
+    "description": "A TV star dog believes his powers are real and embarks on a cross-country journey to save his owner."
   },
   {
     "id": 43,
     "title": "The Princess and the Frog",
     "year": 2009,
     "type": "animation",
-    "song": "Almost There"
+    "song": "Almost There",
+    "description": "A hardworking waitress in 1920s New Orleans kisses a frog prince and becomes a frog herself."
   },
   {
     "id": 44,
     "title": "Tangled",
     "year": 2010,
     "type": "animation",
-    "song": "I See the Light"
+    "song": "I See the Light",
+    "description": "A long-haired princess trapped in a tower discovers the outside world with the help of a charming thief."
   },
   {
     "id": 45,
     "title": "Winnie the Pooh",
     "year": 2011,
     "type": "animation",
-    "song": "A Very Important Thing to Do"
+    "song": "A Very Important Thing to Do",
+    "description": "Pooh and friends search for Eeyore's lost tail and try to save Christopher Robin from an imaginary creature."
   },
   {
     "id": 46,
     "title": "Wreck-It Ralph",
     "year": 2012,
     "type": "animation",
-    "song": "When Can I See You Again"
+    "song": "When Can I See You Again",
+    "description": "A video game villain dreams of becoming a hero and accidentally unleashes chaos across the arcade."
   },
   {
     "id": 47,
     "title": "Frozen",
     "year": 2013,
     "type": "animation",
-    "song": "Let It Go"
+    "song": "Let It Go",
+    "description": "A fearless princess sets off to find her sister whose icy powers have trapped their kingdom in eternal winter."
   },
   {
     "id": 48,
     "title": "Big Hero 6",
     "year": 2014,
     "type": "animation",
-    "song": "Immortals"
+    "song": "Immortals",
+    "description": "A robotics prodigy and his inflatable robot join forces with friends to form a high-tech superhero team."
   },
   {
     "id": 49,
     "title": "Zootopia",
     "year": 2016,
     "type": "animation",
-    "song": "Try Everything"
+    "song": "Try Everything",
+    "description": "A rookie bunny cop teams up with a con artist fox to uncover a conspiracy in the animal metropolis."
   },
   {
     "id": 50,
     "title": "Moana",
     "year": 2016,
     "type": "animation",
-    "song": "How Far I'll Go"
+    "song": "How Far I'll Go",
+    "description": "A spirited Polynesian teen sails across the ocean to save her island with help from the demigod Maui."
   },
   {
     "id": 51,
     "title": "Ralph Breaks the Internet",
     "year": 2018,
     "type": "animation",
-    "song": "Zero"
+    "song": "Zero",
+    "description": "Ralph and Vanellope venture into the internet to find a replacement part and save her game."
   },
   {
     "id": 52,
     "title": "Frozen II",
     "year": 2019,
     "type": "animation",
-    "song": "Into the Unknown"
+    "song": "Into the Unknown",
+    "description": "Elsa journeys into an enchanted forest to discover the origins of her powers and save her kingdom."
   },
   {
     "id": 53,
     "title": "Raya and the Last Dragon",
     "year": 2021,
     "type": "animation",
-    "song": "Lead the Way"
+    "song": "Lead the Way",
+    "description": "A lone warrior seeks the last dragon to restore peace and unite her fractured kingdom."
   },
   {
     "id": 54,
     "title": "Encanto",
     "year": 2021,
     "type": "animation",
-    "song": "We Don't Talk About Bruno"
+    "song": "We Don't Talk About Bruno",
+    "description": "The only ordinary member of a magical family tries to save the fading magic and her family's home."
   },
   {
     "id": 55,
     "title": "Strange World",
     "year": 2022,
     "type": "animation",
-    "song": "Main Theme instrumental"
+    "song": "Main Theme instrumental",
+    "description": "A legendary family of explorers navigates an uncharted and treacherous land alongside a motley crew."
   },
   {
     "id": 56,
     "title": "Wish",
     "year": 2023,
     "type": "animation",
-    "song": "This Wish"
+    "song": "This Wish",
+    "description": "A young woman makes a wish so powerful that it's answered by a cosmic force—a little ball of boundless energy."
   },
   {
     "id": 57,
     "title": "Mary Poppins",
     "year": 1964,
     "type": "live-action",
-    "song": "Supercalifragilisticexpialidocious"
+    "song": "Supercalifragilisticexpialidocious",
+    "description": "A magical nanny arrives to care for two children and transforms their family with wonder and imagination."
   },
   {
     "id": 58,
     "title": "The Love Bug",
     "year": 1968,
     "type": "live-action",
-    "song": "The Love Bug theme"
+    "song": "The Love Bug theme",
+    "description": "A down-on-his-luck race car driver discovers his Volkswagen Beetle has a mind of its own."
   },
   {
     "id": 59,
     "title": "Bedknobs and Broomsticks",
     "year": 1971,
     "type": "live-action",
-    "song": "The Age of Not Believing"
+    "song": "The Age of Not Believing",
+    "description": "An apprentice witch uses magic to help defend England during World War II."
   },
   {
     "id": 60,
     "title": "Pete's Dragon",
     "year": 1977,
     "type": "live-action",
-    "song": "Candle on the Water"
+    "song": "Candle on the Water",
+    "description": "An orphan boy and his invisible dragon friend seek a new home away from his abusive guardians."
   },
   {
     "id": 61,
     "title": "The Black Hole",
     "year": 1979,
     "type": "live-action",
-    "song": "Main Theme instrumental"
+    "song": "Main Theme instrumental",
+    "description": "A research vessel discovers a lost spaceship near a black hole with a mad scientist aboard."
   },
   {
     "id": 62,
     "title": "Tron",
     "year": 1982,
     "type": "live-action",
-    "song": "Tron Theme instrumental"
+    "song": "Tron Theme instrumental",
+    "description": "A computer programmer is digitized into a computer world where he must fight for survival."
   },
   {
     "id": 63,
     "title": "The Rocketeer",
     "year": 1991,
     "type": "live-action",
-    "song": "Main Theme instrumental"
+    "song": "Main Theme instrumental",
+    "description": "A stunt pilot discovers a jetpack that transforms him into a high-flying hero in 1930s Hollywood."
   },
   {
     "id": 64,
     "title": "Newsies",
     "year": 1992,
     "type": "live-action",
-    "song": "Seize the Day"
+    "song": "Seize the Day",
+    "description": "New York newsboys go on strike against newspaper publishers in this inspiring musical."
   },
   {
     "id": 65,
     "title": "The Mighty Ducks",
     "year": 1992,
     "type": "live-action",
-    "song": "We Are the Champions"
+    "song": "We Are the Champions",
+    "description": "A hotshot lawyer is sentenced to coach a youth hockey team and learns valuable lessons about teamwork."
   },
   {
     "id": 66,
     "title": "Hocus Pocus",
     "year": 1993,
     "type": "live-action",
-    "song": "I Put a Spell on You"
+    "song": "I Put a Spell on You",
+    "description": "Three witch sisters are resurrected on Halloween night and wreak havoc on Salem, Massachusetts."
   },
   {
     "id": 67,
     "title": "Cool Runnings",
     "year": 1993,
     "type": "live-action",
-    "song": "I Can See Clearly Now"
+    "song": "I Can See Clearly Now",
+    "description": "Four Jamaican sprinters form the island's first bobsled team to compete in the Winter Olympics."
   },
   {
     "id": 68,
     "title": "The Santa Clause",
     "year": 1994,
     "type": "live-action",
-    "song": "The Santa Clause Theme"
+    "song": "The Santa Clause Theme",
+    "description": "A divorced dad inadvertently becomes Santa Claus and must learn to embrace his new magical role."
   },
   {
     "id": 69,
     "title": "The Parent Trap",
     "year": 1998,
     "type": "live-action",
-    "song": "Here Comes the Sun"
+    "song": "Here Comes the Sun",
+    "description": "Identical twins separated at birth meet at summer camp and scheme to reunite their divorced parents."
   },
   {
     "id": 70,
     "title": "Holes",
     "year": 2003,
     "type": "live-action",
-    "song": "Dig It"
+    "song": "Dig It",
+    "description": "A boy wrongly sent to a desert detention camp uncovers the truth behind the warden's search for buried treasure."
   },
   {
     "id": 71,
     "title": "Freaky Friday",
     "year": 2003,
     "type": "live-action",
-    "song": "Ultimate"
+    "song": "Ultimate",
+    "description": "A mother and daughter magically switch bodies and gain a new understanding of each other's lives."
   },
   {
     "id": 72,
     "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
     "year": 2003,
     "type": "live-action",
-    "song": "He's a Pirate"
+    "song": "He's a Pirate",
+    "description": "A blacksmith teams up with an eccentric pirate to rescue the governor's daughter from cursed pirates."
   },
   {
     "id": 73,
     "title": "National Treasure",
     "year": 2004,
     "type": "live-action",
-    "song": "National Treasure Theme"
+    "song": "National Treasure Theme",
+    "description": "A historian must steal the Declaration of Independence to protect a hidden treasure from falling into wrong hands."
   },
   {
     "id": 74,
     "title": "Enchanted",
     "year": 2007,
     "type": "live-action",
-    "song": "Happy Working Song"
+    "song": "Happy Working Song",
+    "description": "An animated princess is banished to modern-day New York City where she finds true love in unexpected places."
   },
   {
     "id": 75,
     "title": "High School Musical",
     "year": 2006,
     "type": "live-action",
-    "song": "We're All in This Together"
+    "song": "We're All in This Together",
+    "description": "A basketball star and a brainy girl break social barriers when they audition for their school musical."
   },
   {
     "id": 76,
     "title": "Pirates of the Caribbean: Dead Man's Chest",
     "year": 2006,
     "type": "live-action",
-    "song": "Davy Jones theme"
+    "song": "Davy Jones theme",
+    "description": "Jack Sparrow races to settle his debt with the ghostly Davy Jones or be doomed to eternal servitude."
   },
   {
     "id": 77,
     "title": "Tron: Legacy",
     "year": 2010,
     "type": "live-action",
-    "song": "Derezzed"
+    "song": "Derezzed",
+    "description": "A young man enters a digital world to find his missing father and encounters a corrupt virtual reality."
   },
   {
     "id": 78,
     "title": "Alice in Wonderland",
     "year": 2010,
     "type": "live-action",
-    "song": "Alice's Theme"
+    "song": "Alice's Theme",
+    "description": "A 19-year-old Alice returns to Wonderland to fulfill her destiny and defeat the Red Queen."
   },
   {
     "id": 79,
     "title": "The Sorcerer's Apprentice",
     "year": 2010,
     "type": "live-action",
-    "song": "Secrets"
+    "song": "Secrets",
+    "description": "A master sorcerer recruits an unlikely apprentice to help him defend Manhattan from dark forces."
   },
   {
     "id": 80,
     "title": "Oz the Great and Powerful",
     "year": 2013,
     "type": "live-action",
-    "song": "Main Theme instrumental"
+    "song": "Main Theme instrumental",
+    "description": "A small-time magician is swept to the Land of Oz where he must become the great wizard they desperately need."
   },
   {
     "id": 81,
     "title": "Maleficent",
     "year": 2014,
     "type": "live-action",
-    "song": "Once Upon a Dream"
+    "song": "Once Upon a Dream",
+    "description": "The untold story of Disney's most iconic villain and her relationship with the princess she cursed."
   },
   {
     "id": 82,
     "title": "Into the Woods",
     "year": 2014,
     "type": "live-action",
-    "song": "Into the Woods"
+    "song": "Into the Woods",
+    "description": "A witch's curse intertwines the lives of fairy tale characters on quests in the dark woods."
   },
   {
     "id": 83,
     "title": "Cinderella",
     "year": 2015,
     "type": "live-action",
-    "song": "A Dream Is a Wish Your Heart Makes"
+    "song": "A Dream Is a Wish Your Heart Makes",
+    "description": "A live-action retelling of the classic tale of a kind-hearted girl who wins the prince's heart with courage."
   },
   {
     "id": 84,
     "title": "The Jungle Book",
     "year": 2016,
     "type": "live-action",
-    "song": "The Bare Necessities"
+    "song": "The Bare Necessities",
+    "description": "A man-cub raised by wolves must leave his jungle home when the fearsome tiger Shere Khan returns."
   },
   {
     "id": 85,
     "title": "Pete's Dragon",
     "year": 2016,
     "type": "live-action",
-    "song": "Something Wild"
+    "song": "Something Wild",
+    "description": "A mysterious orphan claims to live in the forest with a giant dragon in this reimagining of the classic."
   },
   {
     "id": 86,
     "title": "Beauty and the Beast",
     "year": 2017,
     "type": "live-action",
-    "song": "Beauty and the Beast"
+    "song": "Beauty and the Beast",
+    "description": "A live-action adaptation where Belle becomes prisoner to a beast and discovers true beauty lies within."
   },
   {
     "id": 87,
     "title": "Christopher Robin",
     "year": 2018,
     "type": "live-action",
-    "song": "Goodbye, Farewell"
+    "song": "Goodbye, Farewell",
+    "description": "A grown-up Christopher Robin reunites with his childhood friends from the Hundred Acre Wood."
   },
   {
     "id": 88,
     "title": "The Nutcracker and the Four Realms",
     "year": 2018,
     "type": "live-action",
-    "song": "Fall on Me"
+"song": "Fall on Me",
+    "description": "A young girl enters a magical world of four realms where she must restore peace and find her destiny."
   },
   {
     "id": 89,
     "title": "Mary Poppins Returns",
     "year": 2018,
     "type": "live-action",
-    "song": "The Place Where Lost Things Go"
+    "song": "The Place Where Lost Things Go",
+    "description": "Mary Poppins returns to help the now-grown Banks children rediscover joy during difficult times."
   },
   {
     "id": 90,
     "title": "Dumbo",
     "year": 2019,
     "type": "live-action",
-    "song": "Baby Mine"
+    "song": "Baby Mine",
+    "description": "A live-action reimagining of the elephant with oversized ears who becomes a star attraction."
   },
   {
     "id": 91,
     "title": "Aladdin",
     "year": 2019,
     "type": "live-action",
-    "song": "A Whole New World"
+    "song": "A Whole New World",
+    "description": "A street urchin and a princess embark on a magical adventure with the help of a charismatic genie."
   },
   {
     "id": 92,
     "title": "The Lion King",
     "year": 2019,
     "type": "live-action",
-    "song": "Circle of Life"
+    "song": "Circle of Life",
+    "description": "A photorealistic remake of the young lion prince's journey to reclaim his throne and his kingdom."
   },
   {
     "id": 93,
     "title": "Maleficent: Mistress of Evil",
     "year": 2019,
     "type": "live-action",
-    "song": "You Can't Stop the Girl"
+    "song": "You Can't Stop the Girl",
+    "description": "Maleficent and Aurora face new threats as their complex family bonds are tested by war."
   },
   {
     "id": 94,
     "title": "Mulan",
     "year": 2020,
     "type": "live-action",
-    "song": "Loyal Brave True"
+    "song": "Loyal Brave True",
+    "description": "A fearless young woman disguises herself as a man to fight in the Imperial Army and save her father."
   },
   {
     "id": 95,
     "title": "Cruella",
     "year": 2021,
     "type": "live-action",
-    "song": "Call Me Cruella"
+    "song": "Call Me Cruella",
+    "description": "The origin story of the infamous Cruella de Vil and her rise in 1970s London fashion."
   },
   {
     "id": 96,
     "title": "Jungle Cruise",
     "year": 2021,
     "type": "live-action",
-    "song": "Jungle Cruise Theme"
+    "song": "Jungle Cruise Theme",
+    "description": "A riverboat captain and a scientist embark on a perilous Amazon quest to find a mystical healing tree."
   },
   {
     "id": 97,
     "title": "Disenchanted",
     "year": 2022,
     "type": "live-action",
-    "song": "Perfect"
+    "song": "Perfect",
+    "description": "Giselle wishes for a fairy tale life but accidentally transforms her world into a darker story."
   },
   {
     "id": 98,
     "title": "Hocus Pocus 2",
     "year": 2022,
     "type": "live-action",
-    "song": "The Witches Are Back"
+    "song": "The Witches Are Back",
+    "description": "The Sanderson Sisters return to Salem when three high school students accidentally resurrect them."
   },
   {
     "id": 99,
     "title": "The Little Mermaid",
     "year": 2023,
     "type": "live-action",
-    "song": "Part of Your World"
+    "song": "Part of Your World",
+    "description": "A live-action retelling of Ariel's journey from under the sea to discover life on land and find true love."
   },
   {
     "id": 100,
     "title": "Haunted Mansion",
     "year": 2023,
     "type": "live-action",
-    "song": "Haunted Mansion Theme"
+    "song": "Haunted Mansion Theme",
+    "description": "A mother and son enlist a diverse team to exorcise the ghosts haunting their New Orleans mansion."
   }
 ]

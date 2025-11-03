@@ -362,6 +362,9 @@ class DisneyMovieTracker {
 
         container.innerHTML = recommendations.map(rec => `
             <div class="recommended-movie-item" onclick="window.movieTracker.scrollToMovie(${rec.movie.id})">
+                <div class="movie-description-tooltip">
+                    <div class="tooltip-description">${rec.movie.description}</div>
+                </div>
                 <div class="recommended-movie-info">
                     <div class="recommended-movie-title">${rec.movie.title}</div>
                     <div class="recommended-movie-meta">
